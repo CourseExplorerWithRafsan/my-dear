@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My Portfolio</h1>
+
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h2>Hello, I'm <span>Your Name</span></h2>
+            <p>Aspiring Developer & Technology Enthusiast</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <div class="about-content">
+            <div>
+                <h3>Hi, I'm Your Name</h3>
+                <p>
+                    I am a passionate learner interested in web development,
+                    technology, artificial intelligence, and digital solutions.
+                    I enjoy learning new skills and building useful projects.
+                </p>
+
+                <p>
+                    My goal is to continuously improve my technical skills
+                    and create meaningful digital experiences.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects-section">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A responsive personal portfolio website created using
+                    HTML, CSS, and JavaScript.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do List</h3>
+                <p>
+                    A simple JavaScript application for adding,
+                    completing, and deleting tasks.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Business Dashboard</h3>
+                <p>
+                    A basic dashboard concept for displaying business
+                    information and data.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" class="contact-form">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
